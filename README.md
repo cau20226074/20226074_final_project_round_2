@@ -3,8 +3,19 @@
 ### Project Title
 Brain Tumor Classification
 
+### Motivation
+Open_Source_SW's final project that classify brain tumor using only scikit-learn package
+
 ### Features
-+ MRI data has been resized by 64×64, but since I think there are still many dimensions, it's processed by PCA
-+ and classify to using SVM, and use Pipeline to build the model together
-+ Measure the accuracy with **cross validation**, without using a train and test
-+ and train the model using **all training set**
++ MRI data for training is given, and resized 64×64
++ model should classify whether MRI data shows Benign Tumor, Malignant Tumor, Pituitary Tumor, etc.
++ Build classifcation model and check accuracy by **cross validation**
++ and, train model using **all training set**
+
+### installation
++ scikit-learn, scikit-image are needed
++ If those packages are missed, then, install them by using the following command
++ `pip install scikit-learn scikit-image`
+
+### Lisence
+MIT
