@@ -15,7 +15,7 @@ Open_Source_SW's final project that classify brain tumor using only scikit-learn
 ### installation
 + scikit-learn, scikit-image are needed
 + If those packages are missed, then, install them by using the following command
-+ `pip install scikit-learn scikit-image`
++ `pip install scikit-learn`, `pip install scikit-image`
 
 ### Lisence
 MIT
